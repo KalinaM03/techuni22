@@ -8,5 +8,7 @@ elif n%5==0 and n!=5:
     print(f'{n} is not a prime number.')
 elif n%7==0 and n!=7:
     print(f'{n} is not a prime number.')
+elif n==1:
+    print(f'{n} is not a prime number.')
 else:
     print(f'{n} is a prime number.')

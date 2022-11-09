@@ -12,6 +12,8 @@ while start<=end:
         start += 1
     elif start%7==0 and start!=7:
         start += 1
+    elif start==1:
+        start += 1
     else:
         print(start)
         start+=1
