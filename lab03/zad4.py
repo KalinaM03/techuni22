@@ -1,14 +1,10 @@
 n=int(input("Enter a number to check if it's prime: "))
+counter=0
 
-if n%2==0 and n!=2:
-    print(f'{n} is not a prime number.')
-elif n%3==0 and n!=3:
-    print(f'{n} is not a prime number.')
-elif n%5==0 and n!=5:
-    print(f'{n} is not a prime number.')
-elif n%7==0 and n!=7:
-    print(f'{n} is not a prime number.')
-elif n==1:
-    print(f'{n} is not a prime number.')
-else:
+for i in range(1,n):
+    if n%i==0:
+        counter+=1
+if counter==1:
     print(f'{n} is a prime number.')
+else:
+    print(f'{n} is not a prime number.')
