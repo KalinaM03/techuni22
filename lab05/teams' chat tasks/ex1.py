@@ -16,17 +16,18 @@ def input_nums(n):
 
 
 def sum_list(lst=[]):
+    only_nums_lst = []
+
     for i in lst:
-        if type(i)==int or type(i)==float:
-            continue
-        elif i.isnumeric():
-            lst[lst.index(i)]=int(i)
-        else:
-            lst.remove(i)
+        if type(i)==int or type(i)==float or str(i).isnumeric():
+            if str(i).isnumeric():
+                only_nums_lst.append(int(i))
+            else:
+                only_nums_lst.append(i)
 
-    return sum(lst)
+    return sum(only_nums_lst)
 
-# print(sum_list(['3','4',1]))
+# print(sum_list(['a','4',1,3,'2',12]))
 
 def max_of_two(a,b):
     if a==b:
