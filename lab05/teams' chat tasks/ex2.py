@@ -1,4 +1,3 @@
-#
 def list_avg(lst=[], multiplier=1):
     if type(multiplier)!=int:
         print('invalid multiplier input')

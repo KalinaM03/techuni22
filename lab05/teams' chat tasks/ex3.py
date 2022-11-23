@@ -1,4 +1,3 @@
-#
 def digitize(num):
     if type(num)!=int:
         print('invalid input')

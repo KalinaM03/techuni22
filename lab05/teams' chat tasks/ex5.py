@@ -1,4 +1,3 @@
-#
 def is_valid_triangle(a,b,c):
     if type(a)!=int or type(b)!=int or type(c)!=int:
         return False

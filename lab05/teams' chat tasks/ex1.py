@@ -14,7 +14,6 @@ def input_nums(n):
 
 # print(input_nums('3'))
 
-#
 def sum_list(lst=[]):
     only_nums_lst = []
 

@@ -1,4 +1,3 @@
-#
 def n_sum(a,b):
     return a+b
 def n_sub(a,b):
