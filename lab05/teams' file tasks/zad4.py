@@ -7,3 +7,4 @@ def num_list(lst,num):
 
 
 print(num_list([4,'2','a',5,18,24,2],10))
+#

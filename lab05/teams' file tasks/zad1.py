@@ -1,3 +1,4 @@
+#
 def square(a):
     if type(a)==int:
         area=a**2

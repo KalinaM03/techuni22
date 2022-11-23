@@ -1,3 +1,4 @@
+#
 def get_collection_builder(col_type):
     def f_tuple(a,b,c,d):
         new_tup=(a,b,c,d)
