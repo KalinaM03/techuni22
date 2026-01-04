@@ -1,2 +1,2 @@
 # techuni22
-This repository consists of all my homework files and my in-class work as a Technical University of Sofia student.
+This repository contains all my homework files and in-class work from my studies at the Technical University of Sofia for the subject "Introduction to Programming" from Year 1.
